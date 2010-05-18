@@ -19,7 +19,7 @@ class ScalaPlugin extends Object with Plugin[ScalaPlugin] {
   def init = {
     log.info("The plugin is now starting up")
     val admin = userManager.getUser(1)
-    log.info("Here is the admin user "+ admin.name)
+    log.info("Here is the admin user "+ admin.getName)
   }
   
 }
