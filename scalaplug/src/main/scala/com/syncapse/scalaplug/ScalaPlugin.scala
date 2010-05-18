@@ -1,11 +1,11 @@
-package com.syncapse.scalplug
+package com.syncapse.scalaplug
 
 import com.jivesoftware.base.plugin.Plugin
 import reflect.BeanProperty
 import org.slf4j.LoggerFactory
 import com.jivesoftware.base.UserManager
 
-class ScalaPlugin extends Object with Plugin {
+class ScalaPlugin extends Object with Plugin[ScalaPlugin] {
 
   var log = LoggerFactory.getLogger(getClass)
 
