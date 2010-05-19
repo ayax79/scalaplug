@@ -11,7 +11,7 @@ class ScalaPlugTest extends SpecificationWithJUnit with Mockito {
   userManager.getUser(1) returns user
   user.getName returns "admin"
 
-  var scalaPlugin = new ScalaPlugin()
+  val scalaPlugin = new ScalaPlugin()
   scalaPlugin.userManager = userManager
 
 
