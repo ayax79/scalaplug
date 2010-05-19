@@ -4,11 +4,13 @@ import com.jivesoftware.base.plugin.Plugin
 import reflect.BeanProperty
 import org.slf4j.LoggerFactory
 import com.jivesoftware.base.UserManager
+import org.springframework.beans.factory.annotation.Required
 
 class ScalaPlugin extends Object with Plugin[ScalaPlugin] {
 
   var log = LoggerFactory.getLogger(getClass)
 
+  @Required
   @BeanProperty
   var userManager: UserManager = null
 

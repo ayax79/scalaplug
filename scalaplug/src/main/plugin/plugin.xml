@@ -36,5 +36,5 @@
                 <!--<url><![CDATA[<@s.url value='${JiveResourceResolver.getJiveObjectURL(community)}'/>?view=iframe]]></url>-->
             <!--</tab>-->
         <!--</component>-->
-    <!--</components>-->
+    </components>
 </plugin>
