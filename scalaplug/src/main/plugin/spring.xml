@@ -11,5 +11,4 @@
         <property name="userManager" ref="userManager" />
     </bean>
 
-
 </beans>
